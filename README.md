@@ -1,15 +1,21 @@
 # Tic Tac Toe with Scoreboard
 A simple and interactive Tic Tac Toe game built with React.js that includes a scoreboard to keep track of each player’s score. This project showcases fundamental React concepts, including state management, component structure, and conditional rendering.
 
+---
+
 ## Features
 - Two-Player Game: Supports two players (X and O) who take turns.
 - Responsive Design: Adaptable to various screen sizes.
 - Scoreboard: Keeps track of wins for both players and can be reset.
 
+---
 
 ## Technologies Used
 React: For building the UI and managing the game state.
 CSS: For styling the components and making the layout responsive.
+
+---
+
 ## Installation
 1. Clone the repository:
 
@@ -30,6 +36,8 @@ npm install
 npm start
 ```
 5. Open http://localhost:3000 in your browser to view the game.
+
+---
 
 ## Usage
 Game Start: X always starts first.
@@ -53,11 +61,17 @@ The game logic is handled using state hooks (useState).
 Winner detection uses an array of winning combinations to check if either player has won after each move.
 The ScoreBoard component keeps track of each player's score in the parent component, App.
 
+---
+
 ## Future Enhancements
 AI Player: Implement an AI mode where a player can play against the computer.
 Game History: Add a move history to allow players to go back and review moves.
 License
 This project is open source and available under the MIT License.
 
+---
+
 ## Acknowledgements
 Built with guidance from various online React.js resources and tutorials.
+
+
