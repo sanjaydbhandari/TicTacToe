@@ -1,0 +1,57 @@
+.container p{
+    font-size: 20px;
+}
+
+.container span{
+    color: #ff0080;
+    font-weight: 600;
+}
+
+button{
+    margin: 1rem;
+    color: #ff0080;
+}
+
+button:hover{
+    background-color: #ff0080;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.container .board .rows .boxes{
+    height: 100px;
+    width: 100px;
+    margin:3px;
+    background: #ff00ae55;
+    border-radius: .2rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.container .board .rows .boxes:hover{
+    background-color: #ff0080;
+}
+
+.container .board .rows{
+    display: flex;
+    flex-direction: row;
+}
+
+table{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+}
+
+th{
+    background-color: #ff0080;
+    padding: 0rem 2rem;
+}
+
+td{
+    background-color: #ff00ae55;
+    padding: 0rem 2rem;
+}
